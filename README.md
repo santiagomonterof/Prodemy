@@ -8,6 +8,15 @@ This page includes:
 * Courses
 * Leccions
 
+It has the following functionalities:
+* User(Login, Register)
+* Respective CRUDS
+* Enroll in a course
+* Have follow up
+* Admin view
+* Much more
+
+
 ## Main Page
 ![Prodemy1](https://github.com/santiagomonterof/Prodemy/assets/108990849/3ca40b6c-51e6-45c8-b703-ebab13b6ae18)
 
