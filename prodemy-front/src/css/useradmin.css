@@ -1,0 +1,119 @@
+#domId {
+  visibility: hidden;
+}
+
+.admin__container {
+  background-color: #282c34;
+  color: white;
+}
+
+.form__container {
+  display: flex;
+  justify-content: center;
+}
+
+.form__container__data {
+  background-color: #2f3748;
+  border-radius: 10px;
+  padding: 15px 50px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  margin-top: 30px;
+}
+
+.form__container__data h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.form__container input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  border: 0;
+  padding: 5px;
+}
+
+.form__container textarea {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  border: 0;
+  padding: 5px;
+}
+
+.form__container button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #61dafb;
+  border: 0;
+  cursor: pointer;
+}
+
+.categoryCard__container {
+  display: flex;
+  width: 300px;
+  background-color: rgb(30, 35, 45);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.categoryCard__container button {
+  background-color: #61dafb;
+  border: 0;
+  padding: 10px;
+  margin: 10px 0;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.categoryList__item {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.admin__title {
+  background-image: url("../img/hackeradmin.png");
+  display: flex;
+  justify-content: center;
+}
+
+.admin__title h1 {
+  margin: 0;
+  padding: 10px 40px;
+  color: white;
+  font-size: 20px;
+}
+
+.admin__title {
+  color: transparent;
+  background-image: linear-gradient(
+    to left,
+    #ffd700,
+    #7b68ee,
+    #3498db,
+    #2ecc71,
+    #ffd700
+  );
+  background-clip: text;
+  animation: color 3s linear infinite;
+  background-size: 500%;
+}
+
+@keyframes color {
+  from {
+    background-position: 0% 50%;
+  }
+
+  to {
+    background-position: 100% 50%;
+  }
+}
+
+#domId_course {
+  visibility: hidden;
+}

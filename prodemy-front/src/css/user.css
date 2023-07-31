@@ -1,0 +1,28 @@
+.user__container{
+    display: flex;
+    justify-content: center;
+    background-color: #282C34;
+    height: 30vh;
+    align-items: center;
+}
+
+    .user__container__data{
+        background-color: #2f3748;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 0 rgba(0,0,0,.3);
+        padding: 50px;
+        width: 50%;
+        height: 20vh;
+    }
+
+    .user__container__data h1{
+        color: #61DAFB;
+        margin: 0 0 15px 0;
+        font-size: 30px;
+    }
+
+    .user__container__data p{
+        color: White;
+        margin-top: 6px;
+    }
+

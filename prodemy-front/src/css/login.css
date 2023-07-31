@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.success__container{
+    display: flex;
+    justify-content: center;
+    background-color: #282C34;
+    height: 30vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.success__container h1{
+    color: white;
+    margin: 0 0 15px 0;
+    font-size: 30px;
+}
+
+.success__container a{
+    font-size: clamp(0.55rem, 1.75vw, 0.85rem);
+    padding: clamp(0.25rem, 0.875vw, 0.5rem);
+    background-color: #61dafb;
+    border: 0;
+    text-decoration: none;
+    color: #2f333c;
+    margin-left: -15px;
+    margin-top: 20px;
+}
+
+.success__container p{
+    color: white;
+    font-size: 17px;
+}

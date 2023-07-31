@@ -1,0 +1,39 @@
+.course__container {
+  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+}
+
+.course__container h1 {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px 0;
+  color: white;
+}
+.course__container__back{
+    background-color: #2F3748;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.3);
+    border-radius: 10px;
+    width: 60%;
+    margin: 50px 0;
+    padding: 30px;
+}
+
+.course__container p {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px 0;
+  color: white;
+}
+
+.course__container__list {
+  list-style: none;
+  padding: 0;
+}
+
+.video {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+

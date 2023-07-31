@@ -1,0 +1,121 @@
+.header__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #20232a;
+}
+
+    .header__container__logo {
+        display: flex;
+        padding: 20px;
+    }
+
+        .header__container__logo img {
+            width: clamp(2rem, 7vw, 3rem);
+        }
+
+        .header__container__logo h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: clamp(1rem, 3.5vw, 1.5rem);
+            padding: clamp(0.5rem, 1.75vw, 0.75rem);
+            margin: 0;
+            color: white;
+        }
+
+    #header__container__navbar{
+       padding-top: clamp(1.8rem, 6.2vw, 2.1rem);
+    }
+
+        #header__container__navbar ul{
+            list-style: none;
+            display: flex;
+        }
+
+        #header__container__navbar:not(:first-child) a{
+            text-decoration: none;
+            color: white;
+        }
+
+        #header__container__navbar ul li:first-child{
+            background-color: inherit;
+            padding: 0;
+            margin: clamp(0.25rem, 0.875vw, 0.375rem);
+            text-decoration: none;
+        }
+
+            #header__container__navbar__item{
+                font-size: clamp(0.55rem, 1.75vw, 0.85rem);
+                padding: clamp(0.25rem, 0.875vw, 0.375rem);
+                background-color: #61dafb;
+                margin-left: 10px;
+                border: 0;
+            }
+
+            #header__container__navbar__item:not(:first-child) a {
+                color: #2f333c;
+            }
+        
+          #header__container__navbar__mobile {
+            display: none;
+          }
+          
+          #header__container__navbar__mobile i {
+            color: #fff;
+            align-items: center;
+          }
+          
+          @media screen and (max-width: 426px) {
+            
+            #header__container__navbar{
+                padding: 0;
+             }
+
+            #header__container__navbar ul{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+                position: fixed;       
+                top: clamp(4.65rem, 12vw, 6.5rem);
+                right: -200px;
+                width: 200px;
+                height: 100vh;
+                background-color: #20232a;
+                opacity: 0.99;
+                padding: 30px 0 0 20px;
+                gap: 20px;
+            }
+
+            #header__container__navbar ul li:first-child{
+                background-color: inherit;
+                padding: 0;
+                margin: 0;
+            }
+
+            #header__container__navbar.active ul{
+                right: 0px;
+            }
+            
+                #header__container__navbar__item{          
+                    background-color: inherit;
+                    padding: 0;
+                    margin: 0;
+                    font-size: 14px;
+                    width: 200px;
+                }
+
+                #header__container__navbar__item:not(:first-child) a {
+                    color: white;
+                }
+        
+            #header__container__navbar__mobile {
+              display: block;
+              margin-top: clamp(1.6rem, 5vw, 2rem);
+            }
+          
+            #header__container__navbar__mobile i {
+              font-size: 24px;
+              cursor: pointer;
+            }
+          }
+          
